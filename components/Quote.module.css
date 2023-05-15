@@ -1,0 +1,17 @@
+.attribution {
+  text-align: right;
+  margin: 15px 0 50px 0;
+}
+
+.body {
+  display: flex;
+}
+
+.line {
+  width: 4px;
+  min-width: 4px;
+  height: auto;
+  background-color: gray;
+
+  margin-right: 10px;
+}
