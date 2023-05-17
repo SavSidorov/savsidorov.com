@@ -1,9 +1,10 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import styles from './page.module.css'
+import React, { useState, useEffect } from 'react';
 import { RedoOutlined } from '@ant-design/icons'
 import { Button } from 'antd';
+import { Fade } from 'react-awesome-reveal';
+import styles from './page.module.css'
 
 import About from '@/components/About'
 import Quote from '@/components/Quote'
@@ -16,6 +17,11 @@ export default function Home() {
   const [currentQuote, setCurrentQuote] = useState<{ text: string; author: string; context?: string; } | null>(null);
   const [fadeIn, setFadeIn] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
+
+  const [quoteSectionVisible, setQuoteSectionVisible] = useState(false);
+  const [projectsSectionVisible, setProjectsSectionVisible] = useState(false);
+  const [newsletterSectionVisible, setNewsletterSectionVisible] = useState(false);
+
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -55,7 +61,83 @@ export default function Home() {
         <About />
       </div>
       
-      <div className={styles.quoteSection}>
+      <Fade
+        direction="up"
+        triggerOnce
+        onVisibilityChange={(inView) => inView && setQuoteSectionVisible(true)}
+      >
+        <div
+          className={`
+            ${styles.quoteSection} 
+            hidden-initially 
+            ${quoteSectionVisible ? 'become-visible' : ''}
+          `}
+        >
+          <div className={styles.quoteHeading}>
+            <h2>A Favorite Quote</h2>
+            <Button className={styles.refreshButton} type="text" shape="circle" icon={<RedoOutlined />} onClick={setRandomQuote}/>
+          </div>
+          {currentQuote ? <Quote quote={currentQuote} fadeIn={fadeIn} fadeOut={fadeOut}/> : <p style={{ minHeight:"100px" }}>Loading...</p>}
+        </div>
+      </Fade>
+
+      <Fade
+        direction="up"
+        triggerOnce
+        
+        duration={2000}
+        onVisibilityChange={(inView) => inView && setProjectsSectionVisible(true)}
+      >
+        <div
+          className={`
+            ${styles.projectsSection} 
+            hidden-initially 
+            ${projectsSectionVisible ? 'become-visible' : ''}
+          `}
+        >
+          <h2>My Work</h2>
+          <div className={styles.projects}>
+            {projects.map((project, index) => (
+              <Project key={index} project={project} />
+            ))}
+          </div>
+        </div>
+      </Fade>
+
+      <Fade
+        direction="up"
+        triggerOnce
+        onVisibilityChange={(inView) => inView && setNewsletterSectionVisible(true)}
+      >
+        <div
+          className={`
+            ${styles.newsletterSection} 
+            hidden-initially 
+            ${newsletterSectionVisible ? 'become-visible' : ''}
+          `}
+        >
+          <h2>Newsletter</h2>
+          <p>If you’d like to stay in the loop with what I write, feel free to subscribe to the Substack:</p>
+          <div className={styles.newsletter}>
+            <iframe src="https://savsidorov.substack.com/embed" frameBorder="0" scrolling="no" title="subscribe"></iframe>
+          </div>
+        </div>
+      </Fade>
+
+    </main>
+  )
+}
+
+//FIXME: Button SSR https://ant.design/docs/react/customize-theme#server-side-render-ssr 
+
+/*
+return (
+    <main className={styles.main}>
+      <div className={styles.aboutSection}>
+        <About />
+      </div>
+      
+      <div className={`${styles.quoteSection} ${styles.slideFadeIn}`}>
         <div className={styles.quoteHeading}>
           <h2>A Favorite Quote</h2>
           <Button className={styles.refreshButton} type="text" shape="circle" icon={<RedoOutlined />} onClick={setRandomQuote}/>
@@ -63,7 +145,7 @@ export default function Home() {
         {currentQuote ? <Quote quote={currentQuote} fadeIn={fadeIn} fadeOut={fadeOut}/> : <p style={{ minHeight:"100px" }}>Loading...</p>}
       </div>
 
-      <div className={styles.projectsSection}>
+      <div className={`${styles.projectsSection} ${styles.slideFadeIn}`}>
         <h2>My Work</h2>
         <div className={styles.projects}>
           {projects.map((project, index) => (
@@ -72,7 +154,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.newsletterSection}>
+      <div className={`${styles.newsletterSection} ${styles.slideFadeIn}`}>
         <h2>Newsletter</h2>
         <p>If you’d like to stay in the loop with what I write, feel free to subscribe to the Substack:</p>
         <div className={styles.newsletter}>
@@ -82,6 +164,4 @@ export default function Home() {
 
     </main>
   )
-}
-
-//FIXME: Button SSR https://ant.design/docs/react/customize-theme#server-side-render-ssr 
+*/

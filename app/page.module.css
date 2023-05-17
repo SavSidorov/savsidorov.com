@@ -5,10 +5,10 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  overflow: hidden;
 }
 
-/* For all sections */
-.main > div {
+.main > div { /* All sections */
   max-width: 750px;
   min-width: 300px;
   width: 100%;

@@ -43,3 +43,23 @@ p{
   font-weight: 200;
   margin: 1rem 0;
 }
+
+.hidden-initially {
+  visibility: hidden;
+}
+
+@keyframes become-visible {
+  0% {
+    visibility: hidden;
+  }
+  1% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.become-visible {
+  animation: become-visible 0.01s forwards;
+}
