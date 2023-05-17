@@ -2,7 +2,7 @@
   display: flex;
   margin: 1.5rem 0;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
   background-color: rgba(200, 200, 200, 0.1);
   transition: background 200ms, border 200ms;
 }
@@ -36,9 +36,13 @@
 }
 
 .image{
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
   transition: transform 200ms;
+  
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .body{

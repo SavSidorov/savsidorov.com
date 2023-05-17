@@ -16,9 +16,10 @@ export default function About() {
         height={300} 
         draggable={false}
         priority={true}
+        className={styles.profile}
       />
       <div className={styles.content}>
-        <h1>Sav Sidorov</h1>
+        <h1 className={styles.name}>Sav Sidorov</h1>
         <p>I’m a recent electrical engineering graduate interested in <a target="_blank" href="https://www.youtube.com/watch?v=agOdP2Bmieg"><span>humane software</span></a>, neurotech, robotics and the <a target="_blank" href="https://savsidorov.substack.com/p/the-future-of-learning"><span>future of learning</span></a>.</p>
         <p>Explore <Link href="/library"><span>stuff I’ve read</span></Link>.</p>
         <p>My <Link href="/sav_sidorov_resume.pdf"><span>resume</span></Link>.</p>
