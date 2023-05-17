@@ -19,9 +19,9 @@ export default function About() {
       />
       <div className={styles.content}>
         <h1>Sav Sidorov</h1>
-        <p>I’m a recent electrical engineering graduate interested in <a target="_blank" href="https://www.youtube.com/watch?v=agOdP2Bmieg">humane software</a>, neurotech, robotics and the <a target="_blank" href="https://savsidorov.substack.com/p/the-future-of-learning">future of learning</a>.</p>
-        <p>Explore <Link href="/library">stuff I’ve read</Link>.</p>
-        <p>My <Link href="/sav_sidorov_resume.pdf">resume</Link>.</p>
+        <p>I’m a recent electrical engineering graduate interested in <a target="_blank" href="https://www.youtube.com/watch?v=agOdP2Bmieg"><span>humane software</span></a>, neurotech, robotics and the <a target="_blank" href="https://savsidorov.substack.com/p/the-future-of-learning"><span>future of learning</span></a>.</p>
+        <p>Explore <Link href="/library"><span>stuff I’ve read</span></Link>.</p>
+        <p>My <Link href="/sav_sidorov_resume.pdf"><span>resume</span></Link>.</p>
         <div className={styles.socials}>
           <a target="_blank" href="https://twitter.com/savsidorov">
             <Image src="/socials/twitter.svg" alt="Twitter" width={iconWidth} height={iconHeight} draggable={false}/>

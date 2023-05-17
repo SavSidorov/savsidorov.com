@@ -7,8 +7,10 @@ import { Button } from 'antd';
 
 import About from '@/components/About'
 import Quote from '@/components/Quote'
+import Project from '@/components/Project'
 
 import quotes from '@/data/quotes.json'
+import projects from '@/data/projects.json'
 
 export default function Home() {
   const [currentQuote, setCurrentQuote] = useState<{ text: string; author: string; context?: string; } | null>(null);
@@ -61,9 +63,13 @@ export default function Home() {
         {currentQuote ? <Quote quote={currentQuote} fadeIn={fadeIn} fadeOut={fadeOut}/> : <p style={{ minHeight:"100px" }}>Loading...</p>}
       </div>
 
-      <div className={styles.workSection}>
+      <div className={styles.projectsSection}>
         <h2>My Work</h2>
-        <p>Coming soon...</p>
+        <div className={styles.projects}>
+          {projects.map((project, index) => (
+            <Project key={index} project={project} />
+          ))}
+        </div>
       </div>
 
       <div className={styles.newsletterSection}>
@@ -79,5 +85,3 @@ export default function Home() {
 }
 
 //FIXME: Button SSR https://ant.design/docs/react/customize-theme#server-side-render-ssr 
-
-//TODO: Work section

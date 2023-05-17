@@ -1,0 +1,74 @@
+.project{
+  display: flex;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(200, 200, 200, 0.1);
+  transition: background 200ms, border 200ms;
+}
+
+.project:hover{
+  background-color: rgba(118, 118, 118, 0.1);
+}
+
+.project h3 {
+  font-weight: 200;
+  margin: 0 0 1rem 0;
+}
+
+.project span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.project:hover span {
+  transform: translateX(4px);
+}
+
+.project:hover .image {
+  transform: scale(1.025);
+}
+
+.project h4 {
+  font-weight: 200;
+  color: gray;
+  margin: -1rem 0 0 0;
+}
+
+.image{
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  transition: transform 200ms;
+}
+
+.body{
+  margin-left: 1.5rem;
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .project {
+    flex-direction: column;
+    margin: 1.5 0 1.5rem 0;
+  }
+
+  .project img,
+  .project a,
+  .project p{
+    height: 0;
+    overflow: hidden;
+  }
+
+  .project p{
+    opacity: 0;
+    margin: 0;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+  .body{
+    margin-left: 0;
+  }
+}

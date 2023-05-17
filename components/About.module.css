@@ -7,6 +7,15 @@
   margin-left: 2.5rem;
 }
 
+.content span{
+  border-bottom: 1px solid;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.content span:hover{
+  border-bottom-color: transparent;
+}
+
 .content :nth-child(3){
   margin-bottom: 0;
 }
@@ -35,7 +44,6 @@
 @media (max-width: 700px) {
   .about {
     flex-direction: column;
-    align-items: center;
   }
 
   .content {
