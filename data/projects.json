@@ -2,70 +2,70 @@
   {
     "title": "ECE Capstone Project: Noise Detector and Classifier",
     "url": "/capstone",
-    "description": "Lorem ipsum dolor sit amet.",
+    "description": "TODO: Write description",
     "date": "2022–2023",
     "image": "capstone"
   },
   {
     "title": "Playfair (concept)",
     "url": "/playfair",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "2022",
     "image": "playfair"
   },
   {
     "title": "ACS101 Notes (unfinished)",
     "url": "/acs101",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "Spring 2021",
     "image": "acs101"
   },
   {
     "title": "Music Videos",
     "url": "/music-videos",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "2020 / 2021",
     "image": "musicvideos"
   },
   {
     "title": "Interhackt Hackathon",
     "url": "/interhackt",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "Dec 2020",
     "image": "interhackt"
   },
   {
     "title": "ByteCycler",
     "url": "/bytecycler",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "2019–2020",
     "image": "bytecycler"
   },
   {
     "title": "Flamebot",
     "url": "/flamebot",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "Aug 2018",
     "image": "flamebot"
   },
   {
     "title": "FIRST Robotics Competition: ‘Toggle’",
     "url": "/frc2017",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "Feb 2017",
     "image": "frc2017"
   },
   {
     "title": "FIRST Robotics Competition: ‘Impulse’",
     "url": "/frc2016",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "Feb 2016",
     "image": "frc2016"
   },
   {
     "title": "FIRST Robotics Competition: ‘Elevation’",
     "url": "/frc2015",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu at purus lobortis semper. Vestibulum sed nibh felis. Proin nec lectus nec nibh laoreet tincidunt non id ipsum.",
+    "description": "TODO: Write description",
     "date": "Feb 2015",
     "image": "frc2015"
   }

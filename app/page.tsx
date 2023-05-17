@@ -18,10 +18,12 @@ export default function Home() {
   const [fadeIn, setFadeIn] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
 
+  const [aboutSectionVisible, setAboutSectionVisible] = useState(false);
   const [quoteSectionVisible, setQuoteSectionVisible] = useState(false);
   const [projectsSectionVisible, setProjectsSectionVisible] = useState(false);
   const [newsletterSectionVisible, setNewsletterSectionVisible] = useState(false);
 
+  let screenWidth = window.innerWidth;
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -55,15 +57,34 @@ export default function Home() {
     }
   }, [fadeIn]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main className={styles.main}>
-      <div className={styles.aboutSection}>
-        <About />
-      </div>
+      <Fade
+        triggerOnce
+        delay={500}
+        duration={2000}
+        onVisibilityChange={(inView) => inView && setAboutSectionVisible(true)}
+      >
+          <div
+            className={`
+              ${styles.aboutSection} 
+              hidden-initially 
+              ${aboutSectionVisible ? 'become-visible' : ''}
+            `}
+          >
+          <About />
+        </div>
+      </Fade>
       
       <Fade
         direction="up"
         triggerOnce
+        delay={1500}
+        duration={screenWidth > 700 ? 1500 : 1000}
         onVisibilityChange={(inView) => inView && setQuoteSectionVisible(true)}
       >
         <div
@@ -84,8 +105,8 @@ export default function Home() {
       <Fade
         direction="up"
         triggerOnce
-        
-        duration={2000}
+        delay={screenWidth > 700 ? 1500 : 0}
+        duration={screenWidth > 700 ? 2250 : 1500}
         onVisibilityChange={(inView) => inView && setProjectsSectionVisible(true)}
       >
         <div
@@ -107,6 +128,7 @@ export default function Home() {
       <Fade
         direction="up"
         triggerOnce
+        delay={500}
         onVisibilityChange={(inView) => inView && setNewsletterSectionVisible(true)}
       >
         <div
@@ -127,41 +149,3 @@ export default function Home() {
     </main>
   )
 }
-
-//FIXME: Button SSR https://ant.design/docs/react/customize-theme#server-side-render-ssr 
-
-/*
-return (
-    <main className={styles.main}>
-      <div className={styles.aboutSection}>
-        <About />
-      </div>
-      
-      <div className={`${styles.quoteSection} ${styles.slideFadeIn}`}>
-        <div className={styles.quoteHeading}>
-          <h2>A Favorite Quote</h2>
-          <Button className={styles.refreshButton} type="text" shape="circle" icon={<RedoOutlined />} onClick={setRandomQuote}/>
-        </div>
-        {currentQuote ? <Quote quote={currentQuote} fadeIn={fadeIn} fadeOut={fadeOut}/> : <p style={{ minHeight:"100px" }}>Loading...</p>}
-      </div>
-
-      <div className={`${styles.projectsSection} ${styles.slideFadeIn}`}>
-        <h2>My Work</h2>
-        <div className={styles.projects}>
-          {projects.map((project, index) => (
-            <Project key={index} project={project} />
-          ))}
-        </div>
-      </div>
-
-      <div className={`${styles.newsletterSection} ${styles.slideFadeIn}`}>
-        <h2>Newsletter</h2>
-        <p>If you’d like to stay in the loop with what I write, feel free to subscribe to the Substack:</p>
-        <div className={styles.newsletter}>
-          <iframe src="https://savsidorov.substack.com/embed" frameBorder="0" scrolling="no" title="subscribe"></iframe>
-        </div>
-      </div>
-
-    </main>
-  )
-*/

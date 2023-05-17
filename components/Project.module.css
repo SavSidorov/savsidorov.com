@@ -60,16 +60,7 @@
   .project img,
   .project a,
   .project p{
-    height: 0;
-    overflow: hidden;
-  }
-
-  .project p{
-    opacity: 0;
-    margin: 0;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    display: none;
   }
 
   .body{
