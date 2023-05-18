@@ -23,7 +23,15 @@ export default function Home() {
   const [projectsSectionVisible, setProjectsSectionVisible] = useState(false);
   const [newsletterSectionVisible, setNewsletterSectionVisible] = useState(false);
 
-  let screenWidth = window.innerWidth;
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  useEffect(() => {
+    setScreenWidth(window.innerWidth);
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -56,10 +64,6 @@ export default function Home() {
       return () => clearTimeout(timer);
     }
   }, [fadeIn]);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <main className={styles.main}>

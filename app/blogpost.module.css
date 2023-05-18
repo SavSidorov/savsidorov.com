@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.main > div { /* All sections */
+  max-width: 750px;
+  min-width: 300px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.main span{
+  border-bottom: 1px solid;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.main span:hover{
+  border-bottom-color: transparent;
+}
+
+.books{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+ 
+}
