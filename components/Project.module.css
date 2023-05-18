@@ -3,12 +3,14 @@
   margin: 1.5rem 0;
   padding: 1rem;
   border-radius: var(--border-radius);
+  border: 1px solid rgba(200, 200, 200, 0.3);
   background-color: rgba(200, 200, 200, 0.1);
   transition: background 200ms, border 200ms;
 }
 
 .project:hover{
-  background-color: rgba(118, 118, 118, 0.1);
+  border: 1px solid rgba(120, 120, 120, 0.3);
+  background-color: rgba(120, 120, 120, 0.1);
 }
 
 .project h3 {
