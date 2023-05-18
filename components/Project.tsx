@@ -24,7 +24,6 @@ export default function Project({project}: ProjectProps) {
             <h4 className={styles.date}>{project.date}</h4>
             <p className={styles.description} style={{ textDecoration: 'none' }}>{project.description}</p>
           </div>
-        
       </div>
     </Link> 
   )

@@ -1,16 +1,9 @@
 .project{
   display: flex;
   margin: 1.5rem 0;
-  padding: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
   border-radius: var(--border-radius);
-  border: 1px solid rgba(200, 200, 200, 0.3);
-  background-color: rgba(200, 200, 200, 0.1);
-  transition: background 200ms, border 200ms;
-}
-
-.project:hover{
-  border: 1px solid rgba(120, 120, 120, 0.3);
-  background-color: rgba(120, 120, 120, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .project h3 {
@@ -29,6 +22,7 @@
 
 .project:hover .image {
   transform: scale(1.025);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 }
 
 .project h4 {
@@ -40,7 +34,7 @@
 .image{
   border-radius: var(--border-radius);
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-  transition: transform 200ms;
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -57,6 +51,8 @@
   .project {
     flex-direction: column;
     margin: 1.5 0 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid rgba(200, 200, 200, 0.3);
   }
 
   .project img,

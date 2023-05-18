@@ -3,7 +3,7 @@
   height: calc(250px / 1.2);
   overflow: hidden;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-  transition: box-shadow 0.2s ease-in-out, transform 200ms ease-in-out;
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
 .book:hover {
