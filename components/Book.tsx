@@ -6,7 +6,11 @@ import styles from "./Book.module.css";
 interface BookProps {
   book: {
     title: string;
-    url: string;
+		subtitle: string;
+    author: string;
+		review: string;
+		purchaseLink: string;
+		goodreadsLink: string;
     image: string;
   };
 }
@@ -14,7 +18,7 @@ interface BookProps {
 export default function Book({book}: BookProps) {
 	return (
 			<div className={styles.book}>
-				<Link href={book.url}>
+				<Link href={book.goodreadsLink}>
 					<Image src={book.image} alt={book.title} width={165 / 1.2} height={250 / 1.2}/>
 				</Link>
 			</div>

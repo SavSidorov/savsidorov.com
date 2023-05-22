@@ -11,6 +11,7 @@ import Quote from '@/components/Quote'
 import Project from '@/components/Project'
 
 import quotes from '@/data/quotes.json'
+//TODO: Add project descriptions
 import projects from '@/data/projects.json'
 
 export default function Home() {
