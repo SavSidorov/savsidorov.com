@@ -7,7 +7,7 @@ import { Fade } from 'react-awesome-reveal';
 import Book from '@/components/Book'
 import styles from '../blogpost.module.css'
 
-// TODO: Update book lunks and reviews
+// TODO: Update book links and reviews
 import books from '@/data/books.json'
 import essays from '@/data/essays.json'
 import papers from '@/data/papers.json'
