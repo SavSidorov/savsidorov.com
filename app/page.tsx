@@ -11,7 +11,6 @@ import Quote from '@/components/Quote'
 import Project from '@/components/Project'
 
 import quotes from '@/data/quotes.json'
-//TODO: Add project descriptions
 import projects from '@/data/projects.json'
 
 export default function Home() {
@@ -32,7 +31,7 @@ export default function Home() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, []); //FIXME: This doesn't work
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * quotes.length);

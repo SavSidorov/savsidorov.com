@@ -7,10 +7,27 @@
 }
 
 .main > div { /* All sections */
+  display: flex;
+  flex-direction: column;
   max-width: 750px;
   min-width: 300px;
   width: 100%;
   margin-bottom: 1rem;
+}
+
+.main img,
+.main iframe { 
+  align-self: center;
+}
+
+.main h2{
+  color: gray;
+  margin-top: 0;
+}
+
+.main h3{
+  margin: 2rem 0 -1rem 0;
+  font-weight: 400;
 }
 
 .main span{

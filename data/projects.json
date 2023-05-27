@@ -2,70 +2,70 @@
   {
     "title": "ECE Capstone Project: Noise Detector and Classifier",
     "url": "/capstone",
-    "description": "TODO: Write description",
+    "description": "Using machine learning, we designed a software pipeline to classify and visualize traffic audio.",
     "date": "2022–2023",
     "image": "capstone"
   },
   {
     "title": "Playfair (concept)",
     "url": "/playfair",
-    "description": "TODO: Write description",
+    "description": "Ideation and prototyping for a Mathematica-like web platform for STEM problem-solving.",
     "date": "2022",
     "image": "playfair"
   },
   {
     "title": "ACS101 Notes (unfinished)",
     "url": "/acs101",
-    "description": "TODO: Write description",
+    "description": "Lecture notes I took for Joe Norman's online course: Introduction to Complexity and Applied Complexity.",
     "date": "Spring 2021",
     "image": "acs101"
   },
   {
     "title": "Music Videos",
     "url": "/music-videos",
-    "description": "TODO: Write description",
+    "description": "I directed and edited several music videos during the pandemic – check them out here.",
     "date": "2020 / 2021",
     "image": "musicvideos"
   },
   {
     "title": "Interhackt Hackathon",
     "url": "/interhackt",
-    "description": "TODO: Write description",
+    "description": "A hackathon I helped organize and run, themed around the future of interfaces and online interaction.",
     "date": "Dec 2020",
     "image": "interhackt"
   },
   {
     "title": "ByteCycler",
     "url": "/bytecycler",
-    "description": "TODO: Write description",
+    "description": "A platform that generated crowdsourced graphs of media discourse on current events. This project got me into web development.",
     "date": "2019–2020",
     "image": "bytecycler"
   },
   {
     "title": "Flamebot",
     "url": "/flamebot",
-    "description": "TODO: Write description",
-    "date": "Aug 2018",
+    "description": "A summer project – concieved as a joke and built as the punchline.",
+    "date": "Summer 2018",
     "image": "flamebot"
   },
   {
-    "title": "FIRST Robotics Competition: ‘Toggle’",
+    "title": "FIRST Robotics Competition: 'Toggle'",
     "url": "/frc2017",
-    "description": "TODO: Write description",
+    "description": "Designed for the 2017 FIRST Robotics Competition game – 'FIRST Steamworks' with Team 5897.",
     "date": "Feb 2017",
     "image": "frc2017"
   },
   {
-    "title": "FIRST Robotics Competition: ‘Impulse’",
+    "title": "FIRST Robotics Competition: 'Impulse'",
     "url": "/frc2016",
-    "description": "TODO: Write description",
+    "description": "Designed for the 2016 FIRST Robotics Competition game – 'FIRST Stronghold' with Team 5897.",
     "date": "Feb 2016",
     "image": "frc2016"
   },
   {
-    "title": "FIRST Robotics Competition: ‘Elevation’",
+    "title": "FIRST Robotics Competition: 'Elevation'",
     "url": "/frc2015",
-    "description": "TODO: Write description",
+    "description": "Designed for the 2015 FIRST Robotics Competition game – 'Recycle Rush' with Team 4334.",
     "date": "Feb 2015",
     "image": "frc2015"
   }

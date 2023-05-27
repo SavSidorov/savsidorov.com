@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Module 0: Introduction",
+    "image": "/images/acs101/module0.png",
+    "pdf": "Module_0_Introduction.pdf"
+  },
+  {
+    "title": "Module 1: Reductionism and Emergence",
+    "image": "/images/acs101/module1.png",
+    "pdf": "Module_1_Reductionism_and_Emergence.pdf"
+  },
+  {
+    "title": "Module 2: Introduction to Dynamics",
+    "image": "/images/acs101/module2.png",
+    "pdf": "Module_2_Introduction_to_Dynamics.pdf"
+  },
+  {
+    "title": "Module 3: Difference Equations, Nonlinear Dynamics and Chaos",
+    "image": "/images/acs101/module3.png",
+    "pdf": "Module_3_Difference_Equations_Nonlinear_Dynamics_and_Chaos.pdf"
+  },
+  {
+    "title": "Module 4: Cellular Automata, Self-Organization, and Pattern Formation",
+    "image": "/images/acs101/module4.png",
+    "pdf": "Module_4_Cellular_Automata_Self_Organization_and_Pattern_Formation.pdf"
+  },
+  {
+    "title": "Module 5: Fractals and Scaling",
+    "image": "/images/acs101/module5.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 6: Networks and Connectivity",
+    "image": "/images/acs101/module6.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 7: Introduction to Stochastic Processes",
+    "image": "/images/acs101/module7.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 8: Tails and Extreme Events",
+    "image": "/images/acs101/module8.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 9: Variety and Entropy",
+    "image": "/images/acs101/module9.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 10: Organization and Dynamics of Living Agents",
+    "image": "/images/acs101/module10.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 11: Perception, Action and Mind",
+    "image": "/images/acs101/module11.png",
+    "pdf": "Module_11_Perception_Action_and_Mind.pdf"
+  },
+  {
+    "title": "Module 12: Multi-agent Systems",
+    "image": "/images/acs101/module12.png",
+    "pdf": ""
+  },
+  {
+    "title": "Modules 13 & 14: Evolution",
+    "image": "/images/acs101/module13_14.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 15: Fragility and Antifragility",
+    "image": "/images/acs101/module15.png",
+    "pdf": ""
+  },
+  {
+    "title": "Modules 16 & 17: Society",
+    "image": "/images/acs101/module16_17.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 18: The Timeless Way",
+    "image": "/images/acs101/module18.png",
+    "pdf": "Module_18_The_Timeless_Way.pdf"
+  },
+  {
+    "title": "Module 19: Complex Systems Engineering",
+    "image": "/images/acs101/module19.png",
+    "pdf": ""
+  },
+  {
+    "title": "Module 20: Localism",
+    "image": "/images/acs101/module20.png",
+    "pdf": "Module_20_Localism.pdf"
+  },
+  {
+    "title": "Module 21: Applied Complexity",
+    "image": "/images/acs101/module21.png",
+    "pdf": "Module_21_Applied_Complexity.pdf"
+  }
+]
