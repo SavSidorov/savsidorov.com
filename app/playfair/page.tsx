@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
+import TweetEmbed from 'react-tweet-embed'
 import Link from 'next/link'
 import { Fade } from 'react-awesome-reveal';
 import styles from '../blogpost.module.css'
@@ -47,16 +48,8 @@ export default function Project() {
           <p>Ideation and prototyping for a Mathematica-like web platform for STEM problem-solving. Landing page live at <Link href="https://www.getplayfair.com/"><span>getplayfair.com</span></Link></p>
         </div>
 
-        <div>
-          <blockquote className="twitter-tweet">
-            <p lang="en" dir="ltr">
-              TeX box <a href="https://t.co/2y01O4wgau">pic.twitter.com/2y01O4wgau</a>
-            </p>
-            &mdash; Sav Sidorov (@savsidorov) 
-            <a href="https://twitter.com/savsidorov/status/1616570586880438272?ref_src=twsrc%5Etfw">January 20, 2023</a>
-          </blockquote>
-
-          <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+        <div className={styles.tweet}>
+          <TweetEmbed tweetId="1616570586880438272" />
         </div>
 
       </div>

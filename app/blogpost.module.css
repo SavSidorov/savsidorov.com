@@ -16,8 +16,14 @@
 }
 
 .main img,
-.main iframe { 
+.main iframe{ 
   align-self: center;
+}
+
+/* Twitter embed styling */
+.tweet > div {
+  align-self: center;
+  width: 600px;
 }
 
 .main h2{
@@ -50,6 +56,11 @@
 @media (max-width: 700px) {
   .main{
     padding: 4rem;
+  }
+
+  .tweet > div {
+    align-self: auto;
+    width: auto;
   }
 }
 
