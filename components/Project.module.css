@@ -1,67 +1,67 @@
-.project{
-  display: flex;
-  margin: 1.5rem 0;
-  padding: 0.5rem 0.5rem 0.5rem 0;
-  border-radius: var(--border-radius);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+.project {
+	display: flex;
+	margin: 1.5rem 0;
+	padding: 0.5rem 0.5rem 0.5rem 0;
+	border-radius: var(--border-radius);
+	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .project h3 {
-  font-weight: 200;
-  margin: 0 0 1rem 0;
+	font-weight: 200;
+	margin: 0 0 1rem 0;
 }
 
 .project span {
-  display: inline-block;
-  transition: transform 200ms;
+	display: inline-block;
+	transition: transform 200ms;
 }
 
 .project:hover span {
-  transform: translateX(4px);
+	transform: translateX(4px);
 }
 
 .project:hover .image {
-  transform: scale(1.025);
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	transform: scale(1.025);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .project h4 {
-  font-weight: 200;
-  color: gray;
-  margin: -1rem 0 0 0;
+	font-weight: 200;
+	color: gray;
+	margin: -1rem 0 0 0;
 }
 
-.image{
-  border-radius: var(--border-radius);
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-  
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+.image {
+	border-radius: var(--border-radius);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
 }
 
-.body{
-  margin-left: 1.5rem;
-  width: 100%;
+.body {
+	margin-left: 1.5rem;
+	width: 100%;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
-  .project {
-    flex-direction: column;
-    margin: 1.5 0 1.5rem 0;
-    padding: 1rem;
-    border: 1px solid rgba(200, 200, 200, 0.3);
-  }
+	.project {
+		flex-direction: column;
+		margin: 1.5 0 1.5rem 0;
+		padding: 1rem;
+		border: 1px solid rgba(200, 200, 200, 0.3);
+	}
 
-  .project img,
-  .project a,
-  .project p{
-    display: none;
-  }
+	.project img,
+	.project a,
+	.project p {
+		display: none;
+	}
 
-  .body{
-    margin-left: 0;
-  }
+	.body {
+		margin-left: 0;
+	}
 }

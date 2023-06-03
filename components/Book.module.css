@@ -1,12 +1,12 @@
 .book {
-  width: calc(165px / 1.2);
-  height: calc(250px / 1.2);
-  overflow: hidden;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+	width: calc(165px / 1.2);
+	height: calc(250px / 1.2);
+	overflow: hidden;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
 .book:hover {
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-  transform: scale(1.015);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	transform: scale(1.015);
 }

@@ -1,70 +1,70 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 6rem;
+	min-height: 100vh;
 }
 
-.main > div { /* All sections */
-  display: flex;
-  flex-direction: column;
-  max-width: 750px;
-  min-width: 300px;
-  width: 100%;
-  margin-bottom: 1rem;
+.main > div {
+	/* All sections */
+	display: flex;
+	flex-direction: column;
+	max-width: 750px;
+	min-width: 300px;
+	width: 100%;
+	margin-bottom: 1rem;
 }
 
 .main img,
-.main iframe{ 
-  align-self: center;
+.main iframe {
+	align-self: center;
 }
 
 /* Twitter embed styling */
 .tweet > div {
-  align-self: center;
-  width: 600px;
+	align-self: center;
+	width: 600px;
 }
 
-.main h2{
-  color: gray;
-  margin-top: 0;
+.main h2 {
+	color: gray;
+	margin-top: 0;
 }
 
-.main h3{
-  margin: 2rem 0 -1rem 0;
-  font-weight: 400;
+.main h3 {
+	margin: 2rem 0 -1rem 0;
+	font-weight: 400;
 }
 
-.main span{
-  border-bottom: 1px solid;
-  transition: border-bottom-color 0.2s ease-in-out;
+.main span {
+	border-bottom: 1px solid;
+	transition: border-bottom-color 0.2s ease-in-out;
 }
 
-.main span:hover{
-  border-bottom-color: transparent;
+.main span:hover {
+	border-bottom-color: transparent;
 }
 
-.books{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
+.books {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+	gap: 2rem;
+	margin: 2rem 0;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
-  .main{
-    padding: 4rem;
-  }
+	.main {
+		padding: 4rem;
+	}
 
-  .tweet > div {
-    align-self: auto;
-    width: auto;
-  }
+	.tweet > div {
+		align-self: auto;
+		width: auto;
+	}
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
- 
 }

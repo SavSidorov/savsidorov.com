@@ -1,110 +1,110 @@
 [
-  {
-    "title": "Zero to One",
-    "subtitle": "Notes on Startups, or How to Build the Future",
-    "author": "Peter Thiel",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/18050143-zero-to-one",
-    "image": "/images/books/zero-to-one.jpg"
-  },
-  {
-    "title": "The Bed of Procrustes",
-    "subtitle": "Philosophical and Practical Aphorisms",
-    "author": "Nassim Nicholas Taleb",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes",
-    "image": "/images/books/procrustes.jpg"
-  },
-  {
-    "title": "Finite and Infinite Games",
-    "subtitle": "A Vision of Life as Play and Possibility",
-    "author": "James P. Carse",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/189989.Finite_and_Infinite_Games",
-    "image": "/images/books/finite.jpg"
-  },
-  {
-    "title": "Gödel, Escher, Bach",
-    "subtitle": "An Eternal Golden Braid",
-    "author": "Douglas R. Hofstadter",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/24113.G_del_Escher_Bach",
-    "image": "/images/books/geb.jpg"
-  },
-  {
-    "title": "The Machiavellians",
-    "subtitle": "Defenders of Freedom",
-    "author": "James Burnham",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/1270379.The_Machiavellians",
-    "image": "/images/books/machiavellians.jpg"
-  },
-  {
-    "title": "Bronze Age Mindset",
-    "subtitle": "",
-    "author": "Bronze Age Pervert",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/40388177-bronze-age-mindset",
-    "image": "/images/books/bronze-age-mindset.png"
-  },
-  {
-    "title": "The Fountainhead",
-    "subtitle": "",
-    "author": "Ayn Rand",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/2122.The_Fountainhead",
-    "image": "/images/books/fountainhead.png"
-  },
-  {
-    "title": "Unqualified Reservations: Vol. 1",
-    "subtitle": "",
-    "author": "Mencius Moldbug",
-    "review": "",
-    "purchaseLink": "https://passage.press/product/unqualified-reservations-volume-1/",
-    "goodreadsLink": "",
-    "image": "/images/books/UR.png"
-  },
-  {
-    "title": "The Captive Mind",
-    "subtitle": "",
-    "author": "Czesław Miłosz",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/145660.The_Captive_Mind",
-    "image": "/images/books/captive-mind.png"
-  },
-  {
-    "title": "Notes from Underground",
-    "subtitle": "",
-    "author": "Fyodor Dostoevsky",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/49455.Notes_from_Underground",
-    "image": "/images/books/notes-from-underground.png"
-  },
-  {
-    "title": "The Road to Reality",
-    "subtitle": "A Complete Guide to the Laws of the Universe",
-    "author": "Roger Penrose",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/10638.The_Road_to_Reality",
-    "image": "/images/books/road-to-reality.png"
-  },
-  {
-    "title": "Visual Complex Analysis",
-    "subtitle": "",
-    "author": "Tristan Needham",
-    "review": "",
-    "purchaseLink": "",
-    "goodreadsLink": "https://www.goodreads.com/book/show/149800.Visual_Complex_Analysis",
-    "image": "/images/books/vca.png"
-  }
+	{
+		"title": "Zero to One",
+		"subtitle": "Notes on Startups, or How to Build the Future",
+		"author": "Peter Thiel",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/18050143-zero-to-one",
+		"image": "/images/books/zero-to-one.jpg"
+	},
+	{
+		"title": "The Bed of Procrustes",
+		"subtitle": "Philosophical and Practical Aphorisms",
+		"author": "Nassim Nicholas Taleb",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes",
+		"image": "/images/books/procrustes.jpg"
+	},
+	{
+		"title": "Finite and Infinite Games",
+		"subtitle": "A Vision of Life as Play and Possibility",
+		"author": "James P. Carse",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/189989.Finite_and_Infinite_Games",
+		"image": "/images/books/finite.jpg"
+	},
+	{
+		"title": "Gödel, Escher, Bach",
+		"subtitle": "An Eternal Golden Braid",
+		"author": "Douglas R. Hofstadter",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/24113.G_del_Escher_Bach",
+		"image": "/images/books/geb.jpg"
+	},
+	{
+		"title": "The Machiavellians",
+		"subtitle": "Defenders of Freedom",
+		"author": "James Burnham",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/1270379.The_Machiavellians",
+		"image": "/images/books/machiavellians.jpg"
+	},
+	{
+		"title": "Bronze Age Mindset",
+		"subtitle": "",
+		"author": "Bronze Age Pervert",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/40388177-bronze-age-mindset",
+		"image": "/images/books/bronze-age-mindset.png"
+	},
+	{
+		"title": "The Fountainhead",
+		"subtitle": "",
+		"author": "Ayn Rand",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/2122.The_Fountainhead",
+		"image": "/images/books/fountainhead.png"
+	},
+	{
+		"title": "Unqualified Reservations: Vol. 1",
+		"subtitle": "",
+		"author": "Mencius Moldbug",
+		"review": "",
+		"purchaseLink": "https://passage.press/product/unqualified-reservations-volume-1/",
+		"goodreadsLink": "",
+		"image": "/images/books/UR.png"
+	},
+	{
+		"title": "The Captive Mind",
+		"subtitle": "",
+		"author": "Czesław Miłosz",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/145660.The_Captive_Mind",
+		"image": "/images/books/captive-mind.png"
+	},
+	{
+		"title": "Notes from Underground",
+		"subtitle": "",
+		"author": "Fyodor Dostoevsky",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/49455.Notes_from_Underground",
+		"image": "/images/books/notes-from-underground.png"
+	},
+	{
+		"title": "The Road to Reality",
+		"subtitle": "A Complete Guide to the Laws of the Universe",
+		"author": "Roger Penrose",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/10638.The_Road_to_Reality",
+		"image": "/images/books/road-to-reality.png"
+	},
+	{
+		"title": "Visual Complex Analysis",
+		"subtitle": "",
+		"author": "Tristan Needham",
+		"review": "",
+		"purchaseLink": "",
+		"goodreadsLink": "https://www.goodreads.com/book/show/149800.Visual_Complex_Analysis",
+		"image": "/images/books/vca.png"
+	}
 ]

@@ -1,60 +1,65 @@
-'use client'
+'use client';
 
 import React, { useState, useEffect } from 'react';
-import TweetEmbed from 'react-tweet-embed'
-import Link from 'next/link'
+import TweetEmbed from 'react-tweet-embed';
+import Link from 'next/link';
 import { Fade } from 'react-awesome-reveal';
-import styles from '../blogpost.module.css'
+import styles from '../blogpost.module.css';
 
 export default function Project() {
-  const [projectVisible, setProjectVisible] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(0);
+	const [projectVisible, setProjectVisible] = useState(false);
+	const [screenWidth, setScreenWidth] = useState(0);
 
-  useEffect(() => {
-    // This function will run whenever the window size changes
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    }
-  
-    // Run the function once to get the initial window size
-    handleResize();
-  
-    // Subscribe to window resize events
-    window.addEventListener('resize', handleResize);
-  
-    // Cleanup function: remove the event listener when the component unmounts
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    }
-  }, []); // No dependencies so the effect only runs once on mount and on unmount
+	useEffect(() => {
+		// This function will run whenever the window size changes
+		const handleResize = () => {
+			setScreenWidth(window.innerWidth);
+		};
 
-  return (
-    <Fade
-        triggerOnce
-        delay={500}
-        duration={2000}
-        onVisibilityChange={(inView) => inView && setProjectVisible(true)}
-      >
-      <div
-        className={`
+		// Run the function once to get the initial window size
+		handleResize();
+
+		// Subscribe to window resize events
+		window.addEventListener('resize', handleResize);
+
+		// Cleanup function: remove the event listener when the component unmounts
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
+	}, []); // No dependencies so the effect only runs once on mount and on unmount
+
+	return (
+		<Fade
+			triggerOnce
+			delay={500}
+			duration={2000}
+			onVisibilityChange={(inView) => inView && setProjectVisible(true)}
+		>
+			<div
+				className={`
           ${styles.main} 
           hidden-initially 
           ${projectVisible ? 'become-visible' : ''}
         `}
-      >
-        <div className={styles.titleSection}>
-          <h1>Playfair (concept)</h1>
-          <h2>2022</h2>
-          <p>Ideation and prototyping for a Mathematica-like web platform for STEM problem-solving. Landing page live at <Link href="https://www.getplayfair.com/"><span>getplayfair.com</span></Link></p>
-        </div>
+			>
+				<div className={styles.titleSection}>
+					<h1>Playfair (concept)</h1>
+					<h2>2022</h2>
+					<p>
+						Ideation and prototyping for a Mathematica-like web platform for STEM problem-solving.
+						Landing page live at{' '}
+						<Link href="https://www.getplayfair.com/">
+							<span>getplayfair.com</span>
+						</Link>
+					</p>
+				</div>
 
-        <div className={styles.tweet}>
-          <TweetEmbed tweetId="1616570586880438272" />
-        </div>
-
-      </div>
-    </Fade>
-  )
+				<div className={styles.tweet}>
+					<TweetEmbed tweetId="1616570586880438272" />
+				</div>
+			</div>
+		</Fade>
+	);
 }
 
 //FIXME: Tweet embed errors
