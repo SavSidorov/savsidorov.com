@@ -16,6 +16,7 @@ export default function About() {
 					width={315}
 					height={315}
 					draggable={false}
+					priority={true}
 				/>
 			</div>
 
