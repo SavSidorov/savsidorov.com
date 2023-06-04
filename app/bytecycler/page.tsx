@@ -90,9 +90,9 @@ export default function Project() {
 				<div>
 					<p>
 						The Echo Score of an article shows how much the snippets in an article are echoed by
-						other articles. It's the percentage of supported snippets out of the article's total
-						pool of supported and contradicted snippets. Nodes and connections are color coded from
-						blue (highest score) to yellow (lowest score).
+						other articles. It&apos;s the percentage of supported snippets out of the article&apos;s
+						total pool of supported and contradicted snippets. Nodes and connections are color coded
+						from blue (highest score) to yellow (lowest score).
 					</p>
 				</div>
 				<div>

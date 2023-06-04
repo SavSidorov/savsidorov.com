@@ -46,13 +46,14 @@ export default function Project() {
 					<h1>Music Videos</h1>
 					<h2>2020 / 2021</h2>
 					<p>
-						I've had the opportunity to direct three music videos, thus far. One is a Wallows cover,
-						'Drunk on Halloween' with{' '}
+						I&apos;ve had the opportunity to direct three music videos, thus
+						far. One is a Wallows cover, &apos;Drunk on Halloween&apos; with{' '}
 						<Link href="https://www.youtube.com/channel/UCHK83GbLYCwSCNjiIPEfL4Q">
 							<span>Dwaigne Quierra</span>
 						</Link>
-						. 'Here Comes Another Year' is an original song that Dwaigne wrote. A third video is of
-						my mom, dancing to Replay by WOODJU & MITYA.
+						. &apos;Here Comes Another Year&apos; is an original song that
+						Dwaigne wrote. A third video is of my mom, dancing to Replay by
+						WOODJU & MITYA.
 					</p>
 				</div>
 

@@ -49,8 +49,8 @@ export default function Project() {
 						<Link href="https://breezetraffic.com/">
 							<span>Breeze Traffic</span>
 						</Link>
-						, we've used machine learning classification models to categorize various traffic sounds
-						at intersections in Vancouver. The ultimate goal is a system that can assist the
+						, we&apos;ve used machine learning classification models to categorize various traffic
+						sounds at intersections in Vancouver. The ultimate goal is a system that can assist the
 						government in reducing CO2 emissions by identifying and monitoring vehicle emissions.
 						Traffic light cameras are equipped with microphones, the audio from which is analyzed in
 						real time to identify sounds such as car horns and sirens. The identified audio is

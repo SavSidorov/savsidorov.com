@@ -52,7 +52,7 @@ export default function Project() {
 						<Link href="https://jwnorman.com/">
 							<span>Joe Norman</span>
 						</Link>
-						's online course:{' '}
+						&apos;s online course:{' '}
 						<Link href="https://appliedcomplexity.io/education">
 							<span>Introduction to Complexity and Applied Complexity</span>
 						</Link>

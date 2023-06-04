@@ -43,22 +43,25 @@ export default function Project() {
         `}
 			>
 				<div className={styles.titleSection}>
-					<h1>FIRST Robotics Competition: 'Toggle'</h1>
+					<h1>FIRST Robotics Competition: &apos;Toggle&apos;</h1>
 					<h2>Feb 2017</h2>
 					<p>
-						Designed for the 2017 FIRST Robotics Competition game – 'FIRST Steamworks' with{' '}
+						Designed for the 2017 FIRST Robotics Competition game – &apos;FIRST
+						Steamworks&apos; with{' '}
 						<Link href="https://www.thebluealliance.com/team/5897/2017">
 							<span>Team 5897</span>
 						</Link>
-						. Toggle was capable of carrying gears (plastic game pieces), collecting and shooting
-						plastic balls, climbing up a velcro rope and moving seamlessly across the field.
+						. Toggle was capable of carrying gears (plastic game pieces),
+						collecting and shooting plastic balls, climbing up a velcro rope and
+						moving seamlessly across the field.
 					</p>
 					<p>
-						Toggle was built on a mecanum drive train, allowing it to move omnidirectionally. Each
-						wheel had a separate gearbox and could move independently. The custom gear ratios
-						allowed it to reach one of the highest top speeds on the field. Due to the
-						omnidirectional movement, the ‘front’ of the robot could be toggled between two modes,
-						changing the control scheme to make operation easier.
+						Toggle was built on a mecanum drive train, allowing it to move
+						omnidirectionally. Each wheel had a separate gearbox and could move
+						independently. The custom gear ratios allowed it to reach one of the
+						highest top speeds on the field. Due to the omnidirectional
+						movement, the ‘front’ of the robot could be toggled between two
+						modes, changing the control scheme to make operation easier.
 					</p>
 				</div>
 

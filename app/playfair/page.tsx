@@ -46,8 +46,8 @@ export default function Project() {
 					<h1>Playfair (concept)</h1>
 					<h2>2022</h2>
 					<p>
-						Ideation and prototyping for a Mathematica-like web platform for STEM problem-solving.
-						Landing page live at{' '}
+						Ideation and prototyping for a Mathematica-like web platform for
+						STEM problem-solving. Landing page live at{' '}
 						<Link href="https://www.getplayfair.com/">
 							<span>getplayfair.com</span>
 						</Link>

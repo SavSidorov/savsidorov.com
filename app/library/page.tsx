@@ -79,8 +79,8 @@ export default function Library() {
 				<div className={styles.titleSection}>
 					<h1>The Library</h1>
 					<p>
-						These are the books and shorter writings that have stuck with me and shaped my
-						worldview. See more books on my{' '}
+						These are the books and shorter writings that have stuck with me and
+						shaped my worldview. See more books on my{' '}
 						<Link href="https://www.goodreads.com/user/show/74501550-sav-sidorov">
 							<span>Goodreads</span>
 						</Link>

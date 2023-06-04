@@ -46,9 +46,10 @@ export default function Project() {
 					<h1>Interhackt</h1>
 					<h2>Dec 2020</h2>
 					<p>
-						Interhackt is a hackathon I helped organize and run, along with Azlen Elza, Matthew Siu,
-						Jon Borichevskiy, Kristen Pavle and others. The focus was on the future of interfaces,
-						collaboration, online learing, interacting with software and similar ideas. We had over
+						Interhackt is a hackathon I helped organize and run, along with
+						Azlen Elza, Matthew Siu, Jon Borichevskiy, Kristen Pavle and others.
+						The focus was on the future of interfaces, collaboration, online
+						learing, interacting with software and similar ideas. We had over
 						300 signups and many creative, forward-looking projects made.
 					</p>
 				</div>
@@ -64,9 +65,10 @@ export default function Project() {
 
 				<div>
 					<p>
-						In addition, we ran several events throughout the week, ranging from software tutorials,
-						to the history of technology and the process of building startups, to name a few. You
-						can check out all of the talks on the{' '}
+						In addition, we ran several events throughout the week, ranging from
+						software tutorials, to the history of technology and the process of
+						building startups, to name a few. You can check out all of the talks
+						on the{' '}
 						<Link href="https://www.youtube.com/channel/UCeBgTxzDP97tPzaCwViIqAA">
 							<span>Interhackt YouTube channel</span>
 						</Link>
@@ -75,7 +77,10 @@ export default function Project() {
 				</div>
 
 				<div>
-					<p>The talk I gave at Interhackt is titled 'The Future of Learning'. Watch:</p>
+					<p>
+						The talk I gave at Interhackt is titled &apos;The Future of
+						Learning&apos;. Watch:
+					</p>
 				</div>
 
 				<div>
