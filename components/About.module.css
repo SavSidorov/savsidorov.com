@@ -10,6 +10,19 @@
 	user-select: none; /* Standard syntax */
 }
 
+.profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 300px;
+	min-height: 300px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 .content {
 	margin-left: 2.5rem;
 }

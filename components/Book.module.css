@@ -11,8 +11,3 @@
 	transform: scale(1.015);
 	cursor: pointer;
 }
-
-body.modal-open {
-	overflow: hidden;
-	padding-right: 15px; /* Adjust this value to match the width of your scrollbar */
-}

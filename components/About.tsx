@@ -9,15 +9,16 @@ export default function About() {
 
 	return (
 		<div className={styles.about}>
-			<Image
-				src="/images/profile.png"
-				alt="Sav Sidorov"
-				width={300}
-				height={300}
-				draggable={false}
-				priority={true}
-				className={styles.profile}
-			/>
+			<div className={styles.profile}>
+				<Image
+					src="/images/profile.png"
+					alt="Sav Sidorov"
+					width={315}
+					height={315}
+					draggable={false}
+				/>
+			</div>
+
 			<div className={styles.content}>
 				<h1 className={styles.name}>Sav Sidorov</h1>
 				<p>
