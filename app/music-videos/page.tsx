@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Fade } from 'react-awesome-reveal';
 import styles from '../blogpost.module.css';
 
@@ -44,7 +43,7 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>Music Videos</h1>
-					<h2>2020 / 2021</h2>
+					<h2 className={styles.subtitle}>2020 / 2021</h2>
 					<p>
 						I&apos;ve had the opportunity to direct three music videos, thus
 						far. One is a Wallows cover, &apos;Drunk on Halloween&apos; with{' '}

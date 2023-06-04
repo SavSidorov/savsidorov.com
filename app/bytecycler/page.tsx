@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import { Fade } from 'react-awesome-reveal';
 import styles from '../blogpost.module.css';
@@ -44,18 +43,20 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>ByteCycler</h1>
-					<h2>2019–2020</h2>
+					<h2 className={styles.subtitle}>2019–2020</h2>
 					<p>
-						ByteCycler is a crowdsourced sensemaking platform built by Johann Cooper and I. It
-						started off as a hackathon project, and has since then turned into a full-fledged web
-						platform. The platform generated graphs of the public discourse around a current issue,
-						showing resonant and dissonant perspectives (nodes), as well as the relations (edges)
-						between them.
+						ByteCycler is a crowdsourced sensemaking platform built by Johann
+						Cooper and I. It started off as a hackathon project, and has since
+						then turned into a full-fledged web platform. The platform generated
+						graphs of the public discourse around a current issue, showing
+						resonant and dissonant perspectives (nodes), as well as the
+						relations (edges) between them.
 					</p>
 					<p>
-						I worked on 4-5 prototypes of the platform over the course of two years while attending
-						full time studies, and got acquainted with full-stack development in the process
-						(React/Node/Express/SQL, & Django).
+						I worked on 4-5 prototypes of the platform over the course of two
+						years while attending full time studies, and got acquainted with
+						full-stack development in the process (React/Node/Express/SQL, &
+						Django).
 					</p>
 				</div>
 
@@ -70,8 +71,8 @@ export default function Project() {
 
 				<div>
 					<p>
-						At its core is the Echo Score and the Topic Graph (where each article is represented
-						with a node).
+						At its core is the Echo Score and the Topic Graph (where each
+						article is represented with a node).
 					</p>
 				</div>
 
@@ -89,9 +90,10 @@ export default function Project() {
 				</div>
 				<div>
 					<p>
-						The Echo Score of an article shows how much the snippets in an article are echoed by
-						other articles. It&apos;s the percentage of supported snippets out of the article&apos;s
-						total pool of supported and contradicted snippets. Nodes and connections are color coded
+						The Echo Score of an article shows how much the snippets in an
+						article are echoed by other articles. It&apos;s the percentage of
+						supported snippets out of the article&apos;s total pool of supported
+						and contradicted snippets. Nodes and connections are color coded
 						from blue (highest score) to yellow (lowest score).
 					</p>
 				</div>
@@ -109,8 +111,8 @@ export default function Project() {
 				</div>
 				<div>
 					<p>
-						Here for example, the maroon article has a lower echo score than the blue ones.
-						Connected articles disagree with the maroon one more.
+						Here for example, the maroon article has a lower echo score than the
+						blue ones. Connected articles disagree with the maroon one more.
 					</p>
 				</div>
 				<div>
@@ -123,8 +125,9 @@ export default function Project() {
 				</div>
 				<div>
 					<p>
-						If we hover over that node, we can see that most of that disagreement comes from the top
-						node, since the echo score between those two nodes is yellow - almost 0.
+						If we hover over that node, we can see that most of that
+						disagreement comes from the top node, since the echo score between
+						those two nodes is yellow - almost 0.
 					</p>
 				</div>
 				<div>
@@ -141,8 +144,9 @@ export default function Project() {
 				</div>
 				<div>
 					<p>
-						We also had pages for every supported source / news outlet. Users could see all articles
-						linked for that source, and rate that source’s credibility.
+						We also had pages for every supported source / news outlet. Users
+						could see all articles linked for that source, and rate that
+						source’s credibility.
 					</p>
 				</div>
 				<div>

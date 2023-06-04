@@ -22,7 +22,11 @@ export default function Home() {
 	const [fadeIn, setFadeIn] = useState(false);
 	const [fadeOut, setFadeOut] = useState(false);
 
-	const [sectionVisible, setSectionsVisible] = useState(false);
+	const [aboutSectionVisible, setAboutSectionVisible] = useState(false);
+	const [quoteSectionVisible, setQuoteSectionVisible] = useState(false);
+	const [projectsSectionVisible, setProjectsSectionVisible] = useState(false);
+	const [newsletterSectionVisible, setNewsletterSectionVisible] =
+		useState(false);
 
 	useEffect(() => {
 		const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -62,24 +66,30 @@ export default function Home() {
 				triggerOnce
 				delay={500}
 				duration={2000}
-				//Set all section to visible
-				onVisibilityChange={(inView) => inView && setSectionsVisible(true)}
+				onVisibilityChange={(inView) => inView && setAboutSectionVisible(true)}
 			>
 				<div
 					className={`
               ${styles.aboutSection} 
               hidden-initially 
-              ${sectionVisible ? 'become-visible' : ''}
+              ${aboutSectionVisible ? 'become-visible' : ''}
             `}
 				>
 					<About />
 				</div>
+			</Fade>
 
+			<Fade
+				triggerOnce
+				delay={500}
+				duration={2000}
+				onVisibilityChange={(inView) => inView && setQuoteSectionVisible(true)}
+			>
 				<div
 					className={`
             ${styles.quoteSection} 
             hidden-initially 
-            ${sectionVisible ? 'become-visible' : ''}
+            ${quoteSectionVisible ? 'become-visible' : ''}
           `}
 				>
 					<div className={styles.quoteHeading}>
@@ -98,12 +108,22 @@ export default function Home() {
 						<p style={{ minHeight: '100px' }}>Loading...</p>
 					)}
 				</div>
+			</Fade>
 
+			<Fade
+				triggerOnce
+				delay={500}
+				duration={2000}
+				fraction={0.15}
+				onVisibilityChange={(inView) =>
+					inView && setProjectsSectionVisible(true)
+				}
+			>
 				<div
 					className={`
             ${styles.projectsSection} 
             hidden-initially 
-            ${sectionVisible ? 'become-visible' : ''}
+            ${projectsSectionVisible ? 'become-visible' : ''}
           `}
 				>
 					<h2>My Work</h2>
@@ -113,18 +133,27 @@ export default function Home() {
 						))}
 					</div>
 				</div>
+			</Fade>
 
+			<Fade
+				triggerOnce
+				delay={500}
+				duration={2000}
+				onVisibilityChange={(inView) =>
+					inView && setNewsletterSectionVisible(true)
+				}
+			>
 				<div
 					className={`
             ${styles.newsletterSection} 
             hidden-initially 
-            ${sectionVisible ? 'become-visible' : ''}
+            ${newsletterSectionVisible ? 'become-visible' : ''}
           `}
 				>
 					<h2>Newsletter</h2>
 					<p>
-						If you’d like to stay in the loop with what I write, feel free to subscribe to the
-						Substack:
+						If you’d like to stay in the loop with what I write, feel free to
+						subscribe to the Substack:
 					</p>
 					<div className={styles.newsletter}>
 						<iframe

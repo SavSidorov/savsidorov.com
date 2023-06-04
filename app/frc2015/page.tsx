@@ -44,9 +44,10 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>FIRST Robotics Competition: &apos;Elevation&apos;</h1>
-					<h2>Feb 2015</h2>
+					<h2 className={styles.subtitle}>Feb 2015</h2>
 					<p>
-						Designed for the 2015 FIRST Robotics Competition game – &apos;Recycle Rush&apos; with{' '}
+						Designed for the 2015 FIRST Robotics Competition game –
+						&apos;Recycle Rush&apos; with{' '}
 						<Link href="https://www.thebluealliance.com/team/4334/2015">
 							<span>Team 4334</span>
 						</Link>

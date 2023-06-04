@@ -43,19 +43,21 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>ECE Capstone Project: Noise Detector and Classifier</h1>
-					<h2>2022–2023</h2>
+					<h2 className={styles.subtitle}>2022–2023</h2>
 					<p>
 						In partnership with{' '}
 						<Link href="https://breezetraffic.com/">
 							<span>Breeze Traffic</span>
 						</Link>
-						, we&apos;ve used machine learning classification models to categorize various traffic
-						sounds at intersections in Vancouver. The ultimate goal is a system that can assist the
-						government in reducing CO2 emissions by identifying and monitoring vehicle emissions.
-						Traffic light cameras are equipped with microphones, the audio from which is analyzed in
-						real time to identify sounds such as car horns and sirens. The identified audio is
-						subsequently stored in a database in the cloud, and sound metrics are computed and
-						presented on a dashboard for easy visualization.
+						, we&apos;ve used machine learning classification models to
+						categorize various traffic sounds at intersections in Vancouver. The
+						ultimate goal is a system that can assist the government in reducing
+						CO2 emissions by identifying and monitoring vehicle emissions.
+						Traffic light cameras are equipped with microphones, the audio from
+						which is analyzed in real time to identify sounds such as car horns
+						and sirens. The identified audio is subsequently stored in a
+						database in the cloud, and sound metrics are computed and presented
+						on a dashboard for easy visualization.
 					</p>
 				</div>
 

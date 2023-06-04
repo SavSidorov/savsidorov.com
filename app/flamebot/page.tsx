@@ -44,12 +44,12 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>Flamebot</h1>
-					<h2>Summer 2018</h2>
+					<h2 className={styles.subtitle}>Summer 2018</h2>
 					<p>
-						We’ve built a mini remote control tank as a fun summer project – complete with a
-						flamethrower mounted on top. The whole project was built from the ground up – designed,
-						fabricated and assembled. The only major off the shelf component is the track assembly,
-						found{' '}
+						We’ve built a mini remote control tank as a fun summer project –
+						complete with a flamethrower mounted on top. The whole project was
+						built from the ground up – designed, fabricated and assembled. The
+						only major off the shelf component is the track assembly, found{' '}
 						<Link href="https://www.andymark.com/products/rhino-track-drive-module">
 							<span>on Andymark</span>
 						</Link>
@@ -57,7 +57,8 @@ export default function Project() {
 						<Link href="https://www.amazon.ca/gp/product/B07115X6KL/">
 							<span>Flysky FS-i6X RC Transmitter and FS-iA10B Receiver</span>
 						</Link>{' '}
-						combination. Flamethrower runs on diesel and a standard electric fuel pump.
+						combination. Flamethrower runs on diesel and a standard electric
+						fuel pump.
 					</p>
 				</div>
 

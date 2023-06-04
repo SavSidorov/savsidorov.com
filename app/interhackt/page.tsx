@@ -44,7 +44,7 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>Interhackt</h1>
-					<h2>Dec 2020</h2>
+					<h2 className={styles.subtitle}>Dec 2020</h2>
 					<p>
 						Interhackt is a hackathon I helped organize and run, along with
 						Azlen Elza, Matthew Siu, Jon Borichevskiy, Kristen Pavle and others.

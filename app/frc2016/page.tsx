@@ -44,15 +44,16 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>FIRST Robotics Competition: &apos;Impulse&apos;</h1>
-					<h2>Feb 2016</h2>
+					<h2 className={styles.subtitle}>Feb 2016</h2>
 					<p>
-						Designed for the 2016 FIRST Robotics Competition game – &apos;FIRST Stronghold&apos;
-						with{' '}
+						Designed for the 2016 FIRST Robotics Competition game – &apos;FIRST
+						Stronghold&apos; with{' '}
 						<Link href="https://www.thebluealliance.com/team/5897/2016">
 							<span>Team 5897</span>
 						</Link>
-						. Impulse was capable of catching and shooting foam balls, raising obstacles with the
-						front arm and climbing up a bar with a telescoping mechanism.
+						. Impulse was capable of catching and shooting foam balls, raising
+						obstacles with the front arm and climbing up a bar with a
+						telescoping mechanism.
 					</p>
 				</div>
 

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { Fade } from 'react-awesome-reveal';
 import ACS101Module from '@/components/ACS101Module';
@@ -10,25 +10,6 @@ import acsModules from '@/data/acs101.json';
 
 export default function Project() {
 	const [projectVisible, setProjectVisible] = useState(false);
-	const [screenWidth, setScreenWidth] = useState(0);
-
-	useEffect(() => {
-		// This function will run whenever the window size changes
-		const handleResize = () => {
-			setScreenWidth(window.innerWidth);
-		};
-
-		// Run the function once to get the initial window size
-		handleResize();
-
-		// Subscribe to window resize events
-		window.addEventListener('resize', handleResize);
-
-		// Cleanup function: remove the event listener when the component unmounts
-		return () => {
-			window.removeEventListener('resize', handleResize);
-		};
-	}, []); // No dependencies so the effect only runs once on mount and on unmount
 
 	return (
 		<Fade
@@ -46,7 +27,7 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>ACS101 Notes (unfinished)</h1>
-					<h2>Spring 2021</h2>
+					<h2 className={styles.subtitle}>Spring 2021</h2>
 					<p>
 						Lecture notes I took for{' '}
 						<Link href="https://jwnorman.com/">

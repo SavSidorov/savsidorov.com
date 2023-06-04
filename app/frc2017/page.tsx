@@ -44,7 +44,7 @@ export default function Project() {
 			>
 				<div className={styles.titleSection}>
 					<h1>FIRST Robotics Competition: &apos;Toggle&apos;</h1>
-					<h2>Feb 2017</h2>
+					<h2 className={styles.subtitle}>Feb 2017</h2>
 					<p>
 						Designed for the 2017 FIRST Robotics Competition game – &apos;FIRST
 						Steamworks&apos; with{' '}
