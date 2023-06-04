@@ -61,5 +61,3 @@ export default function Project() {
 		</Fade>
 	);
 }
-
-//FIXME: Tweet embed errors

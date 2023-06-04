@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { Button, Modal } from 'antd';
 import styles from './Book.module.css';
 
@@ -17,7 +16,6 @@ interface BookProps {
 }
 
 export default function Book({ book }: BookProps) {
-	const [loading, setLoading] = useState(false);
 	const [open, setOpen] = useState(false);
 
 	const showModal = () => {
@@ -25,9 +23,7 @@ export default function Book({ book }: BookProps) {
 	};
 
 	const handleOk = () => {
-		setLoading(true);
 		setTimeout(() => {
-			setLoading(false);
 			setOpen(false);
 		}, 3000);
 	};
@@ -50,14 +46,30 @@ export default function Book({ book }: BookProps) {
 				title={book.title}
 				onOk={handleOk}
 				onCancel={handleCancel}
-				footer={null}
+				footer={[
+					<Button
+						key="link"
+						href={book.goodreadsLink}
+						type="text"
+						onClick={handleOk}
+					>
+						Goodreads
+					</Button>,
+					<Button
+						key="link"
+						href={book.purchaseLink}
+						type="text"
+						onClick={handleOk}
+					>
+						Purchase
+					</Button>,
+				]}
 				centered
 			>
 				<p>{book.review}</p>
-				<Link href={book.goodreadsLink}>Goodreads</Link>
-				<br />
-				<Link href={book.purchaseLink}>Purchase</Link>
 			</Modal>
 		</div>
 	);
 }
+
+//FIXME: Modal slightly shifts underlying content when opened

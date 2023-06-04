@@ -60,7 +60,6 @@ export default function Library() {
 		});
 	}
 
-	// TODO: Book modals
 	return (
 		<Fade
 			triggerOnce

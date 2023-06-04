@@ -3,7 +3,7 @@
 		"title": "Zero to One",
 		"subtitle": "Notes on Startups, or How to Build the Future",
 		"author": "Peter Thiel",
-		"review": "TODO: Review",
+		"review": "This book introduced me to the world of tech startups and has probably had the biggest impact on me as a person. Superficially a book of business advice, what it’s actually about is philosophy – specifically how to think critically, dream big and do exceptional work.",
 		"purchaseLink": "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",
 		"goodreadsLink": "https://www.goodreads.com/book/show/18050143-zero-to-one",
 		"image": "/images/books/zero-to-one.jpg"
@@ -12,7 +12,7 @@
 		"title": "The Bed of Procrustes",
 		"subtitle": "Philosophical and Practical Aphorisms",
 		"author": "Nassim Nicholas Taleb",
-		"review": "TODO: Review",
+		"review": "This little book of aphorisms is a distillation of Nassim Taleb’s Incerto series and his philosophy in general. For me, Taleb works better in aphorisms than in his longer-form work. Lots of East Med wisdom in here.",
 		"purchaseLink": "https://www.amazon.com/Bed-Procrustes-Philosophical-Practical-Aphorisms/dp/014198502X",
 		"goodreadsLink": "https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes",
 		"image": "/images/books/procrustes.jpg"
@@ -21,7 +21,7 @@
 		"title": "Finite and Infinite Games",
 		"subtitle": "A Vision of Life as Play and Possibility",
 		"author": "James P. Carse",
-		"review": "TODO: Review",
+		"review": "This book blew my mind. Though, the way that it’s written is certainly not for everyone. It’s light on technical game theory, and more so provides a way of thinking. “A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”",
 		"purchaseLink": "https://www.amazon.com/Finite-Infinite-Games-James-Carse/dp/1476731713",
 		"goodreadsLink": "https://www.goodreads.com/book/show/189989.Finite_and_Infinite_Games",
 		"image": "/images/books/finite.jpg"
@@ -30,7 +30,7 @@
 		"title": "Gödel, Escher, Bach",
 		"subtitle": "An Eternal Golden Braid",
 		"author": "Douglas R. Hofstadter",
-		"review": "TODO: Review",
+		"review": "An amazing, trippy adventure. Don’t go into this one with the goal of trying to learn something from it. You might learn a lot, but that’s not the point. The point is to hang out with Douglas Hofstadter and see what intellectual pathway he’ll take you down next. It’s almost like a nonfiction Alice in Wonderland.",
 		"purchaseLink": "https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567",
 		"goodreadsLink": "https://www.goodreads.com/book/show/24113.G_del_Escher_Bach",
 		"image": "/images/books/geb.jpg"
@@ -39,7 +39,7 @@
 		"title": "The Machiavellians",
 		"subtitle": "Defenders of Freedom",
 		"author": "James Burnham",
-		"review": "TODO: Review",
+		"review": "I learned more about political science from this book than anywhere else. Burnham walks through the ideas of several thinkers in the Machiavellian school – including Machiavelli himself – and their efforts to study politics in an objective, scientifically rigorous way, free of ideology.",
 		"purchaseLink": "https://www.amazon.com/Machiavellians-Defenders-Freedom-James-Burnham/dp/1839013958",
 		"goodreadsLink": "https://www.goodreads.com/book/show/1270379.The_Machiavellians",
 		"image": "/images/books/machiavellians.jpg"
@@ -48,7 +48,7 @@
 		"title": "Bronze Age Mindset",
 		"subtitle": "",
 		"author": "Bronze Age Pervert",
-		"review": "TODO: Review",
+		"review": "I started reading this as a joke, but what I found was a surprisingly wholesome work of philosophy that resonated with me deeply. Sort of like Nietzsche meets Taleb, with a bit more edge.",
 		"purchaseLink": "https://www.amazon.com/Bronze-Age-Mindset-Pervert/dp/1983090441",
 		"goodreadsLink": "https://www.goodreads.com/book/show/40388177-bronze-age-mindset",
 		"image": "/images/books/bronze-age-mindset.png"
@@ -57,7 +57,7 @@
 		"title": "The Fountainhead",
 		"subtitle": "",
 		"author": "Ayn Rand",
-		"review": "TODO: Review",
+		"review": "Is this a great work of literature? No. However, it is an excellent thesis on the artist and the creative process. More philosophy than fiction. On top of that, everything is infused with this erotic modernism that I quite adore.",
 		"purchaseLink": "https://www.amazon.com/Fountainhead-Ayn-Rand/dp/0452273331",
 		"goodreadsLink": "https://www.goodreads.com/book/show/2122.The_Fountainhead",
 		"image": "/images/books/fountainhead.png"
@@ -66,7 +66,7 @@
 		"title": "Unqualified Reservations: Vol. 1",
 		"subtitle": "",
 		"author": "Mencius Moldbug",
-		"review": "TODO: Review",
+		"review": "Curtis is one of my favorite writers – he’s fun to read, informative and a deep systems thinker. This is a collection of some of his most popular writings on unqualified-reservations.org, delving into an analysis of our current political system from a Machiavellian perspective (see: Burnham, The Machiavellians). If for nothing else, UR is a fun adventure way beyond the Overton window.",
 		"purchaseLink": "https://passage.press/product/unqualified-reservations-volume-1/",
 		"goodreadsLink": "",
 		"image": "/images/books/UR.png"
@@ -75,7 +75,7 @@
 		"title": "The Captive Mind",
 		"subtitle": "",
 		"author": "Czesław Miłosz",
-		"review": "TODO: Review",
+		"review": "Is a first-hand account of the Soviet ideological capture of the Polish poetry scene. Essential reading.",
 		"purchaseLink": "https://www.amazon.com/Captive-Mind-Czeslaw-Milosz/dp/0679728562",
 		"goodreadsLink": "https://www.goodreads.com/book/show/145660.The_Captive_Mind",
 		"image": "/images/books/captive-mind.png"
@@ -84,7 +84,7 @@
 		"title": "Notes from Underground",
 		"subtitle": "",
 		"author": "Fyodor Dostoevsky",
-		"review": "TODO: Review",
+		"review": "Left me depressed for a whole week. No, I don’t want to reread it. 10/10.",
 		"purchaseLink": "https://www.amazon.com/Underground-Vintage-Classics-Fyodor-Dostoevsky/dp/067973452X",
 		"goodreadsLink": "https://www.goodreads.com/book/show/49455.Notes_from_Underground",
 		"image": "/images/books/notes-from-underground.png"
@@ -93,7 +93,7 @@
 		"title": "The Road to Reality",
 		"subtitle": "A Complete Guide to the Laws of the Universe",
 		"author": "Roger Penrose",
-		"review": "TODO: Review",
+		"review": "I’m still making my way through this – essentially, this is a technical yet somewhat casual walk through the core ideas in modern physics. Penrose’s passion for physics is incredibly infectious.",
 		"purchaseLink": "https://www.amazon.com/Road-Reality-Complete-Guide-Universe/dp/0679776311",
 		"goodreadsLink": "https://www.goodreads.com/book/show/10638.The_Road_to_Reality",
 		"image": "/images/books/road-to-reality.png"
@@ -102,7 +102,7 @@
 		"title": "Visual Complex Analysis",
 		"subtitle": "",
 		"author": "Tristan Needham",
-		"review": "TODO: Review",
+		"review": "Still reading this one. What I will say is that this is one of the best textbooks I’ve ever read. Needham’s writing is extremely clear, passionate and conversational. And as the title suggests, there’s a visual explanation for the concepts presented wherever possible. This goes a long way to help bootstrap mental models.",
 		"purchaseLink": "https://www.amazon.com/Visual-Complex-Analysis-25th-Anniversary/dp/0192868918",
 		"goodreadsLink": "https://www.goodreads.com/book/show/149800.Visual_Complex_Analysis",
 		"image": "/images/books/vca.png"
