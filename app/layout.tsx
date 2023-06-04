@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
@@ -16,6 +17,11 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
+			<Head>
+				<title>{metadata.title}</title>
+				<meta name="description" content={metadata.description} />
+				<meta property="og:image" content={metadata.image} />
+			</Head>
 			<body className={inter.className}>{children}</body>
 		</html>
 	);
