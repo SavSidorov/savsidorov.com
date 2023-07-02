@@ -71,5 +71,3 @@ export default function Book({ book }: BookProps) {
 		</div>
 	);
 }
-
-//FIXME: Modal slightly shifts underlying content when opened
