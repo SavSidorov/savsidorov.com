@@ -45,7 +45,7 @@ export default function Home() {
 				setCurrentQuote(quotes[randomIndex]);
 				setFadeOut(false);
 				setFadeIn(true);
-			}, 1000);
+			}, 500);
 
 			return () => clearTimeout(timer);
 		}
@@ -55,7 +55,7 @@ export default function Home() {
 		if (fadeIn) {
 			const timer = setTimeout(() => {
 				setFadeIn(false);
-			}, 1000);
+			}, 500);
 
 			return () => clearTimeout(timer);
 		}

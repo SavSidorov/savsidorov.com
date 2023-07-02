@@ -20,7 +20,7 @@
 
 .quoteSection {
 	margin-bottom: 1rem;
-	transition: height 1s ease-in-out;
+	transition: height 500ms ease-in-out;
 }
 
 .quoteHeading {
