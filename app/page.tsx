@@ -5,6 +5,7 @@ import { RedoOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import { Fade } from 'react-awesome-reveal';
 import styles from './page.module.css';
+import { ANIMATION_DURATION, ANIMATION_DELAY } from './consts';
 
 import About from '@/components/About';
 import Quote from '@/components/Quote';
@@ -64,8 +65,8 @@ export default function Home() {
 		<main className={styles.main}>
 			<Fade
 				triggerOnce
-				delay={500}
-				duration={2000}
+				delay={ANIMATION_DELAY}
+				duration={ANIMATION_DURATION}
 				onVisibilityChange={(inView) => inView && setAboutSectionVisible(true)}
 			>
 				<div
@@ -81,8 +82,8 @@ export default function Home() {
 
 			<Fade
 				triggerOnce
-				delay={500}
-				duration={2000}
+				delay={ANIMATION_DELAY}
+				duration={ANIMATION_DURATION}
 				onVisibilityChange={(inView) => inView && setQuoteSectionVisible(true)}
 			>
 				<div
@@ -112,8 +113,8 @@ export default function Home() {
 
 			<Fade
 				triggerOnce
-				delay={500}
-				duration={2000}
+				delay={ANIMATION_DELAY}
+				duration={ANIMATION_DURATION}
 				fraction={0.15}
 				onVisibilityChange={(inView) =>
 					inView && setProjectsSectionVisible(true)
@@ -137,8 +138,8 @@ export default function Home() {
 
 			<Fade
 				triggerOnce
-				delay={500}
-				duration={2000}
+				delay={ANIMATION_DELAY}
+				duration={ANIMATION_DURATION}
 				onVisibilityChange={(inView) =>
 					inView && setNewsletterSectionVisible(true)
 				}

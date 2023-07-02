@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Fade } from 'react-awesome-reveal';
 import ACS101Module from '@/components/ACS101Module';
 import styles from '../blogpost.module.css';
+import { ANIMATION_DURATION, ANIMATION_DELAY } from '../consts';
 
 import acsModules from '@/data/acs101.json';
 
@@ -14,8 +15,8 @@ export default function Project() {
 	return (
 		<Fade
 			triggerOnce
-			delay={500}
-			duration={2000}
+			delay={ANIMATION_DELAY}
+			duration={ANIMATION_DURATION}
 			onVisibilityChange={(inView) => inView && setProjectVisible(true)}
 		>
 			<div

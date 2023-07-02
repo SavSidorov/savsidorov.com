@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Fade } from 'react-awesome-reveal';
 import Book from '@/components/Book';
 import styles from '../blogpost.module.css';
+import { ANIMATION_DURATION, ANIMATION_DELAY } from '../consts';
 
 import books from '@/data/books.json';
 import essays from '@/data/essays.json';
@@ -63,8 +64,8 @@ export default function Library() {
 	return (
 		<Fade
 			triggerOnce
-			delay={500}
-			duration={2000}
+			delay={ANIMATION_DELAY}
+			duration={ANIMATION_DURATION}
 			onVisibilityChange={(inView) => inView && setLibraryVisible(true)}
 		>
 			<div

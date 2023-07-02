@@ -5,6 +5,7 @@ import TweetEmbed from 'react-tweet-embed';
 import Link from 'next/link';
 import { Fade } from 'react-awesome-reveal';
 import styles from '../blogpost.module.css';
+import { ANIMATION_DURATION, ANIMATION_DELAY } from '../consts';
 
 export default function Project() {
 	const [projectVisible, setProjectVisible] = useState(false);
@@ -31,8 +32,8 @@ export default function Project() {
 	return (
 		<Fade
 			triggerOnce
-			delay={500}
-			duration={2000}
+			delay={ANIMATION_DELAY}
+			duration={ANIMATION_DURATION}
 			onVisibilityChange={(inView) => inView && setProjectVisible(true)}
 		>
 			<div
