@@ -1,7 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from './About.module.css';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./About.module.css";
 
 export default function About() {
 	const iconWidth = 21;
@@ -23,35 +23,35 @@ export default function About() {
 			<div className={styles.content}>
 				<h1 className={styles.name}>Sav Sidorov</h1>
 				<p>
-					I’m a recent electrical engineering graduate interested in{' '}
+					I’m a recent electrical engineering graduate interested in{" "}
 					<Link href="https://www.youtube.com/watch?v=agOdP2Bmieg">
 						<span>humane software</span>
 					</Link>
-					, neurotech, robotics and the{' '}
+					, neurotech, robotics and the{" "}
 					<Link href="https://savsidorov.substack.com/p/the-future-of-learning">
 						<span>future of learning</span>
 					</Link>
 					.
 				</p>
 				<p>
-					Explore{' '}
+					Explore{" "}
 					<Link href="/library">
 						<span>stuff I’ve read</span>
 					</Link>
 					.
 				</p>
 				<p>
-					My{' '}
+					My{" "}
 					<Link href="/sav_sidorov_resume.pdf">
 						<span>resume</span>
 					</Link>
 					.
 				</p>
 				<div className={styles.socials}>
-					<Link href="https://twitter.com/savsidorov">
+					<Link href="https://x.com/savsidorov">
 						<Image
-							src="/socials/twitter.svg"
-							alt="Twitter"
+							src="/socials/x.svg"
+							alt="X.com"
 							width={iconWidth}
 							height={iconHeight}
 							draggable={false}
