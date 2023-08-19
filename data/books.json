@@ -54,15 +54,6 @@
 		"image": "/images/books/bronze-age-mindset.png"
 	},
 	{
-		"title": "The Fountainhead",
-		"subtitle": "",
-		"author": "Ayn Rand",
-		"review": "Is this a great work of literature? No. However, it is an excellent thesis on the artist and the creative process. More philosophy than fiction. On top of that, everything is infused with this erotic modernism that I quite adore.",
-		"purchaseLink": "https://www.amazon.com/Fountainhead-Ayn-Rand/dp/0452273331",
-		"goodreadsLink": "https://www.goodreads.com/book/show/2122.The_Fountainhead",
-		"image": "/images/books/fountainhead.png"
-	},
-	{
 		"title": "Unqualified Reservations: Vol. 1",
 		"subtitle": "",
 		"author": "Mencius Moldbug",
@@ -106,5 +97,32 @@
 		"purchaseLink": "https://www.amazon.com/Visual-Complex-Analysis-25th-Anniversary/dp/0192868918",
 		"goodreadsLink": "https://www.goodreads.com/book/show/149800.Visual_Complex_Analysis",
 		"image": "/images/books/vca.png"
+	},
+	{
+		"title": "Twelve Against the Gods",
+		"subtitle": "The Story of Adventure",
+		"author": "William Bolitho",
+		"review": "[TODO:]",
+		"purchaseLink": "https://www.amazon.ca/Twelve-Against-Gods-Story-Adventure/dp/1635765390/",
+		"goodreadsLink": "https://www.goodreads.com/book/show/8390313-twelve-against-the-gods",
+		"image": "/images/books/bolitho.jpg"
+	},
+	{
+		"title": "The Prince / Discourses on Livy",
+		"subtitle": "",
+		"author": "Niccolò Machiavelli",
+		"review": "[TODO:]",
+		"purchaseLink": "https://www.amazon.ca/Prince-Discourses-Niccolo-Machiavelli/dp/0075535777/",
+		"goodreadsLink": "https://www.goodreads.com/book/show/780639.The_Prince_and_The_Discourses",
+		"image": "/images/books/machiavelli.png"
+	},
+	{
+		"title": "The Creative Act",
+		"subtitle": "A Way of Being",
+		"author": "Rick Rubin",
+		"review": "[TODO:]",
+		"purchaseLink": "https://www.amazon.ca/Creative-Act-Way-Being/dp/0593652886",
+		"goodreadsLink": "https://www.goodreads.com/book/show/60965426-the-creative-act",
+		"image": "/images/books/rubin.jpg"
 	}
 ]
