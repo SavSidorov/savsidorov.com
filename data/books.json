@@ -48,7 +48,7 @@
 		"title": "Bronze Age Mindset",
 		"subtitle": "",
 		"author": "Bronze Age Pervert",
-		"review": "I started reading this as a joke, but what I found was a surprisingly wholesome work of philosophy that resonated with me deeply. Sort of like Nietzsche meets Taleb, with a bit more edge.",
+		"review": "I started reading this as a joke, but what I found was a surprisingly wholesome work of philosophy that resonated with me deeply. A mondern restatement of Nietzsche, if you will. Though not without its own original ideas - the concept of 'owned space' is one that I think about a lot, for example.",
 		"purchaseLink": "https://www.amazon.com/Bronze-Age-Mindset-Pervert/dp/1983090441",
 		"goodreadsLink": "https://www.goodreads.com/book/show/40388177-bronze-age-mindset",
 		"image": "/images/books/bronze-age-mindset.png"
@@ -75,7 +75,7 @@
 		"title": "Notes from Underground",
 		"subtitle": "",
 		"author": "Fyodor Dostoevsky",
-		"review": "Left me depressed for a whole week. No, I don’t want to reread it. 10/10.",
+		"review": "Left me depressed for a week. Maybe one day I'll summon the courage to reread it. 10/10.",
 		"purchaseLink": "https://www.amazon.com/Underground-Vintage-Classics-Fyodor-Dostoevsky/dp/067973452X",
 		"goodreadsLink": "https://www.goodreads.com/book/show/49455.Notes_from_Underground",
 		"image": "/images/books/notes-from-underground.png"
@@ -111,7 +111,7 @@
 		"title": "The Prince / Discourses on Livy",
 		"subtitle": "",
 		"author": "Niccolò Machiavelli",
-		"review": "[TODO:]",
+		"review": "Machiavelli is the Newton of political science, as far as I'm concerned. Very few are able to analyze political systems with the clarity and scientific detachment needed to make any real sense of it. Machiavelli perhaps does it best.",
 		"purchaseLink": "https://www.amazon.ca/Prince-Discourses-Niccolo-Machiavelli/dp/0075535777/",
 		"goodreadsLink": "https://www.goodreads.com/book/show/780639.The_Prince_and_The_Discourses",
 		"image": "/images/books/machiavelli.png"
@@ -124,5 +124,23 @@
 		"purchaseLink": "https://www.amazon.ca/Creative-Act-Way-Being/dp/0593652886",
 		"goodreadsLink": "https://www.goodreads.com/book/show/60965426-the-creative-act",
 		"image": "/images/books/rubin.jpg"
+	},
+	{
+		"title": "Dieter Rams: Less But Better",
+		"subtitle": "",
+		"author": "Dieter Rams",
+		"review": "Dieter Rams is a huge inspiration, and has greatly informed my aesthetic taste. This book is a collection of his work, and a great introduction to his philosophy of design. Minimalism almost misses the point - it's not about keeping things minimal, rather about keeping only the essential. No design choice should be made without purpose.",
+		"purchaseLink": "https://www.amazon.ca/Dieter-Rams-Less-But-Better/dp/3899555252",
+		"goodreadsLink": "https://www.goodreads.com/en/book/show/22005475",
+		"image": "/images/books/rams.jpg"
+	},
+	{
+		"title": "Apple Human Interface Guidelines (1987)",
+		"subtitle": "",
+		"author": "Apple Computer Inc.",
+		"review": "A wonderful treasure trove of early Apple design philosophy. There's a freshness to it that's hard to find in modern design writing.",
+		"purchaseLink": "https://andymatuschak.org/files/papers/Apple%20Human%20Interface%20Guidelines%201987.pdf",
+		"goodreadsLink": "https://www.goodreads.com/en/book/show/1087111",
+		"image": "/images/books/apple_hig.jpg"
 	}
 ]
