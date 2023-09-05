@@ -48,15 +48,12 @@ export default function Project() {
 					<h2>2022</h2>
 					<p>
 						Ideation and prototyping for a Mathematica-like web platform for
-						STEM problem-solving. Landing page live at{' '}
-						<Link href="https://www.getplayfair.com/">
-							<span>getplayfair.com</span>
-						</Link>
+						STEM problem-solving.
 					</p>
 				</div>
 
 				<div className={styles.tweet}>
-					<TweetEmbed tweetId="1616570586880438272" />
+					<TweetEmbed tweetId='1616570586880438272' />
 				</div>
 			</div>
 		</Fade>
