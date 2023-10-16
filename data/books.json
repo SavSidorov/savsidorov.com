@@ -54,15 +54,6 @@
 		"image": "/images/books/bronze-age-mindset.png"
 	},
 	{
-		"title": "Unqualified Reservations: Vol. 1",
-		"subtitle": "",
-		"author": "Mencius Moldbug",
-		"review": "Curtis is one of my favorite writers – he has a unique voice and is a deep systems thinker. This is a collection of some of his most popular writings on unqualified-reservations.org, delving into an analysis of our current political system from a Machiavellian perspective (see: Burnham, The Machiavellians). If for nothing else, UR is an intellectual adventure to places way beyond the Overton window.",
-		"purchaseLink": "https://passage.press/product/unqualified-reservations-volume-1/",
-		"goodreadsLink": "https://www.goodreads.com/book/show/25922035-an-open-letter-to-open-minded-progressives",
-		"image": "/images/books/UR.png"
-	},
-	{
 		"title": "The Captive Mind",
 		"subtitle": "",
 		"author": "Czesław Miłosz",
@@ -99,15 +90,6 @@
 		"image": "/images/books/vca.png"
 	},
 	{
-		"title": "Twelve Against the Gods",
-		"subtitle": "The Story of Adventure",
-		"author": "William Bolitho",
-		"review": "[TODO:]",
-		"purchaseLink": "https://www.amazon.ca/Twelve-Against-Gods-Story-Adventure/dp/1635765390/",
-		"goodreadsLink": "https://www.goodreads.com/book/show/8390313-twelve-against-the-gods",
-		"image": "/images/books/bolitho.jpg"
-	},
-	{
 		"title": "The Prince / Discourses on Livy",
 		"subtitle": "",
 		"author": "Niccolò Machiavelli",
@@ -124,23 +106,5 @@
 		"purchaseLink": "https://www.amazon.ca/Creative-Act-Way-Being/dp/0593652886",
 		"goodreadsLink": "https://www.goodreads.com/book/show/60965426-the-creative-act",
 		"image": "/images/books/rubin.jpg"
-	},
-	{
-		"title": "Dieter Rams: Less But Better",
-		"subtitle": "",
-		"author": "Dieter Rams",
-		"review": "Dieter Rams is a huge inspiration, and has greatly informed my aesthetic taste. This book is a collection of his work, and a great introduction to his philosophy of design. Minimalism almost misses the point - it's not about keeping things minimal, rather about keeping only the essential. No design choice should be made without purpose.",
-		"purchaseLink": "https://www.amazon.ca/Dieter-Rams-Less-But-Better/dp/3899555252",
-		"goodreadsLink": "https://www.goodreads.com/en/book/show/22005475",
-		"image": "/images/books/rams.jpg"
-	},
-	{
-		"title": "Apple Human Interface Guidelines (1987)",
-		"subtitle": "",
-		"author": "Apple Computer Inc.",
-		"review": "A wonderful treasure trove of early Apple design philosophy. There's a freshness to it that's hard to find in modern design writing.",
-		"purchaseLink": "https://andymatuschak.org/files/papers/Apple%20Human%20Interface%20Guidelines%201987.pdf",
-		"goodreadsLink": "https://www.goodreads.com/en/book/show/1087111",
-		"image": "/images/books/apple_hig.jpg"
 	}
 ]
